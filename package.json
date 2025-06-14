@@ -1,11 +1,12 @@
 {
   "name": "meta-blog",
   "version": "1.0.0",
+  "homepage": "https://jairdeveloper.github.io/My_blog/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "serve": "vite preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.39.3",
