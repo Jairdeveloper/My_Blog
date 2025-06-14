@@ -1,7 +1,7 @@
 // HomeView.vue content placeholder
 <template>
     <h1>Home View</h1>
-    <PostCard v-bindpost="PostData" />
+    <PostCard :post="PostData" />
 </template>
 
 <script>
@@ -9,7 +9,6 @@ import PostCard from '../components/PostCard.vue';
 
 export default{
     name: 'HomeView',
-
     components :{
         PostCard //Registra el componente PostCard
 },
